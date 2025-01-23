@@ -59,13 +59,15 @@ button {
 
 .nav-container {
   display: flex;
-  padding-top: 22.5px;
-  padding-bottom: 22.5px;
+  /* padding-top: 22.5px;
+  padding-bottom: 22.5px; */
 }
 
 .nav {
   display: flex;
   align-items: center;
+  padding-top: 22.5px;
+  padding-bottom: 22.5px;
 }
 
 .nav-ul {
@@ -112,6 +114,8 @@ button {
   font-style: normal;
   margin-left: auto;
   margin-right: 156px;
+  padding-top: 22.5px;
+  padding-bottom: 22.5px;
 }
 
 .address-ul {
