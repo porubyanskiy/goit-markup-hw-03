@@ -18,11 +18,16 @@
       rel="stylesheet"
     />
 
-    <link href="./css/style.css" rel="stylesheet" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
       rel="stylesheet"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
@@ -32,7 +37,7 @@
             >WEB<span class="white-logo">Studio</span></a
           >
           <ul class="nav-ul">
-            <li>
+            <li class="nav-ul-li">
               <a href="./index.html" class="nav-item">Studio</a>
             </li>
             <li class="nav-ul-li">
@@ -45,7 +50,7 @@
         </nav>
         <address class="address">
           <ul class="address-ul">
-            <li>
+            <li class="address-ul-li">
               <a href="mailto:info@devstudio.com" class="address__a"
                 >info@devstudio.com</a
               >
@@ -61,7 +66,7 @@
     </header>
 
     <main>
-      <section>
+      <section class="baner">
         <div class="container baner-block">
           <h1 class="baner-block__title">
             Effective Solutions for Your Business
@@ -72,30 +77,30 @@
 
       <section>
         <div class="container">
-          <h2 class="strategy-block__header">Our Strategy</h2>
+          <h2 class="visually-hidden">Our Strategy</h2>
           <ul class="strategy-block__ul">
-            <li>
+            <li class="strategy-block__ul-li">
               <h3 class="strategy-block__title">Strategy</h3>
               <p class="strategy-block__description">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="strategy-block__ul-li">
               <h3 class="strategy-block__title">Punctuality</h3>
               <p class="strategy-block__description">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="strategy-block__ul-li">
               <h3 class="strategy-block__title">Diligence</h3>
               <p class="strategy-block__description">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="strategy-block__ul-li">
               <h3 class="strategy-block__title">Technologies</h3>
               <p class="strategy-block__description">
                 Design practice focused on digital experiences. We bring forth a
@@ -116,13 +121,17 @@
                 width="264"
                 alt="Mark Guerrero"
               />
-              <h3 class="team-block__card-title">Mark Guerrero</h3>
-              <p class="team-block__card-description">Product Designer</p>
+              <div class="team-block_card-block">
+                <h3 class="team-block__card-title">Mark Guerrero</h3>
+                <p class="team-block__card-description">Product Designer</p>
+              </div>
             </li>
             <li class="team-block__card">
               <img src="./images/tomford.jpg" width="264" alt="Tom Ford" />
-              <h3 class="team-block__card-title">Tom Ford</h3>
-              <p class="team-block__card-description">Frontend Developer</p>
+              <div class="team-block_card-block">
+                <h3 class="team-block__card-title">Tom Ford</h3>
+                <p class="team-block__card-description">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-block__card">
               <img
@@ -130,8 +139,10 @@
                 width="264"
                 alt="Camila Garcia"
               />
-              <h3 class="team-block__card-title">Camila Garcia</h3>
-              <p class="team-block__card-description">Marketing</p>
+              <div class="team-block_card-block">
+                <h3 class="team-block__card-title">Camila Garcia</h3>
+                <p class="team-block__card-description">Marketing</p>
+              </div>
             </li>
             <li class="team-block__card">
               <img
@@ -139,15 +150,17 @@
                 width="264"
                 alt="Daniel Wilson"
               />
-              <h3 class="team-block__card-title">Daniel Wilson</h3>
-              <p class="team-block__card-description">UI Designer</p>
+              <div class="team-block_card-block">
+                <h3 class="team-block__card-title">Daniel Wilson</h3>
+                <p class="team-block__card-description">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
 
-      <section>
-        <div class="container portfolio-block">
+      <section class="portfolio-block">
+        <div class="container">
           <h2 class="portfolio-block__title">Our Portfolio</h2>
           <ul class="portfolio-block__ul">
             <li class="portfolio-block__card">
@@ -156,8 +169,10 @@
                 width="360"
                 alt="Banking App"
               />
-              <h3 class="portfolio-block__header">Banking App</h3>
-              <p class="portfolio-block__description">App</p>
+              <div class="portfolio-block__card-container">
+                <h3 class="portfolio-block__header">Banking App</h3>
+                <p class="portfolio-block__description">App</p>
+              </div>
             </li>
             <li class="portfolio-block__card">
               <img
@@ -165,8 +180,10 @@
                 width="360"
                 alt="Cashless Payment"
               />
-              <h3 class="portfolio-block__header">Cashless Payment</h3>
-              <p class="portfolio-block__description">Marketing</p>
+              <div class="portfolio-block__card-container">
+                <h3 class="portfolio-block__header">Cashless Payment</h3>
+                <p class="portfolio-block__description">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-block__card">
               <img
@@ -174,8 +191,10 @@
                 width="360"
                 alt="Meditation App"
               />
-              <h3 class="portfolio-block__header">Meditation App</h3>
-              <p class="portfolio-block__description">App</p>
+              <div class="portfolio-block__card-container">
+                <h3 class="portfolio-block__header">Meditation App</h3>
+                <p class="portfolio-block__description">App</p>
+              </div>
             </li>
             <li class="portfolio-block__card">
               <img
@@ -183,8 +202,10 @@
                 width="360"
                 alt="Taxi Service"
               />
-              <h3 class="portfolio-block__header">Taxi Service</h3>
-              <p class="portfolio-block__description">Marketing</p>
+              <div class="portfolio-block__card-container">
+                <h3 class="portfolio-block__header">Taxi Service</h3>
+                <p class="portfolio-block__description">Marketing</p>
+              </div>
             </li>
 
             <li class="portfolio-block__card">
@@ -193,8 +214,10 @@
                 width="360"
                 alt="Screen Illustrations"
               />
-              <h3 class="portfolio-block__header">Screen Illustrations</h3>
-              <p class="portfolio-block__description">Design</p>
+              <div class="portfolio-block__card-container">
+                <h3 class="portfolio-block__header">Screen Illustrations</h3>
+                <p class="portfolio-block__description">Design</p>
+              </div>
             </li>
             <li class="portfolio-block__card">
               <img
@@ -202,17 +225,19 @@
                 width="360"
                 alt="Online Courses"
               />
-              <h3 class="portfolio-block__header">Online Courses</h3>
-              <p class="portfolio-block__description">Marketing</p>
+              <div class="portfolio-block__card-container">
+                <h3 class="portfolio-block__header">Online Courses</h3>
+                <p class="portfolio-block__description">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="container footer">
-        <a href="./index.html" class="logo"
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="logo footer-logo"
           >WEB<span class="black-logo">Studio</span></a
         >
         <p class="footer__description">
