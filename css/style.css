@@ -60,7 +60,8 @@ button {
 
 .nav-container {
   display: flex;
-  /* padding: 22.5px 0 22.5px 156px; */
+  padding-top: 22.5px;
+  padding-bottom: 22.5px;
 }
 
 .nav {
