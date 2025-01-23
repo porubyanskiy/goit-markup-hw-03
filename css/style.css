@@ -324,8 +324,8 @@ button {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
+
 .portfolio-block__header {
   font-weight: 500;
   font-size: 20px;
@@ -334,6 +334,7 @@ button {
   color: #2e2f42;
   /* margin-top: 32px; */
   padding-left: 16px;
+  margin-bottom: 8px;
 }
 
 .portfolio-block__description {
